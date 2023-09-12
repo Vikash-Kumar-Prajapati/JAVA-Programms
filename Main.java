@@ -5,5 +5,9 @@ public class Main {
         System.out.println("This is a JAVA project which is executing through Jenkins");
         System.out.println("Hello Vikash Kumar Prajapati");
         System.out.println(new Date());
+
+        Student student = new Student();
+        student.name("Vikash");
+
     }
 }
